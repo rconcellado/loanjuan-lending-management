@@ -136,20 +136,21 @@ LoanJuan follows a multi-layer application architecture.
 
 ### Borrower Management
 
-LoanJuan maintains centralized borrower information and supports assigning borrowers to agents responsible for lending and collection activities.
-
+LoanJuan provides centralized borrower management for maintaining borrower records and assigning collection responsibilities to authorized personnel.
 Key capabilities include:
+- Borrower registration and profile management
+- Borrower search and status tracking
+- Collection officer assignment
+- Loan and repayment monitoring
 
-- Borrower registration
-- Borrower information management
-- Borrower status tracking
-- Agent assignment
-- Multiple borrower assignments
-- Loan history
-- Repayment monitoring
+<p align="center">
+<img width="300" 
+      alt="Borrower Management" src="https://github.com/user-attachments/assets/7512a3a5-b3c5-4180-8aea-97b1932635a0" />
+</p>      
 
-Borrower-to-agent relationships are managed through an assignment model, allowing the system to support flexible operational responsibilities.
-
+<p align="center">
+  <em>Borrower management interface showing borrower records, collection officer assignments, search, and status information.</em>
+</p>
 ---
 
 ### Agent, Position and Access Management
