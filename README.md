@@ -371,7 +371,8 @@ The LoanJuan database is structured around the complete lending lifecycle, inclu
 
 The ERD below illustrates the primary entities and relationships used by the lending platform.
 
-[LoanJuan Lending Entity Relationship Diagram (4).pdf](https://github.com/user-attachments/files/32692342/LoanJuan.Lending.Entity.Relationship.Diagram.4.pdf)
+<img width="2747" height="1754" alt="LoanJuan Lending Entity Relationship Diagram (4)" src="https://github.com/user-attachments/assets/196e79f0-ef08-45f8-b5fd-b3447999a61f" />
+
 
 
 
