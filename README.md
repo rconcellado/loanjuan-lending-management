@@ -311,7 +311,7 @@ The payment correction workflow includes:
 
 ---
 
-## Reporting
+### Reporting
 
 LoanJuan provides administrative and operational reports that give lending personnel visibility into loan releases, repayments, collections, and borrower activity.
 
