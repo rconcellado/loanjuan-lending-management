@@ -306,23 +306,6 @@ The payment correction workflow includes:
 
 ---
 
-### Collections and Loan Monitoring
-
-LoanJuan provides operational tools for monitoring repayment activity and identifying loans requiring attention.
-
-Capabilities include:
-
-- Repayment monitoring
-- Overdue loan tracking
-- Missed-due monitoring
-- Collection activities
-- Borrower assignments
-- Loan status tracking
-
-These features help lending and collection personnel identify accounts requiring follow-up.
-
----
-
 ## Reporting
 
 LoanJuan provides administrative and operational reports for monitoring lending activities.
