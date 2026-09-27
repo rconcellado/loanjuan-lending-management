@@ -165,7 +165,9 @@ The system supports:
        alt="LoanJuan Agent, Position and Access Management"
        src="https://github.com/user-attachments/assets/7b90ac00-d593-4dc2-8a3c-6f25acb0f79a" />
 </p>
-
+<p align="center">
+  <em>Mobile interface for managing agents, positions, roles, and access.</em>
+</p>
 
 ---
 
