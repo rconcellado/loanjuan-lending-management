@@ -308,18 +308,26 @@ The payment correction workflow includes:
 
 ## Reporting
 
-LoanJuan provides administrative and operational reports for monitoring lending activities.
+LoanJuan provides administrative and operational reports that give lending personnel visibility into loan releases, repayments, collections, and borrower activity.
 
-Examples include:
+Available reports include:
 
 - Overdue Loans
 - Repayment Overview
-- Cash Release
+- Cash Released Report
 - Loan Client List
 - Missed Dues
 - Payment List
 
-Reporting data is derived from the lending, borrower, repayment, and payment modules.
+Reports support filtering and structured presentation of lending data, with selected reports available in printable and shareable formats.
+
+<p align="center">
+<img width="300" 
+      alt="Cash Release Reports" src="https://github.com/user-attachments/assets/a8da1fad-f2b5-4a66-a13f-0405c9418374" />
+</p>
+<p align="center">
+  <em>Cash Released Report showing released loans grouped by loan officer, including borrower, collection officer, loan term, principal, interest, payable amount, and daily repayment.</em>
+</p>
 
 ---
 
