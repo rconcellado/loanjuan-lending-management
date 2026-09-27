@@ -45,13 +45,6 @@ A borrower is registered or selected, and a loan application is created. The app
 - JWT Authentication
 - PostgreSQL
 
-### Web Application
-
-- ASP.NET Core
-- Web-based administrative interface
-- Responsive administrative screens
-- REST API integration
-
 ### Database
 
 - PostgreSQL
