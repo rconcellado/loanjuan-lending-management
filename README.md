@@ -151,6 +151,7 @@ Key capabilities include:
 <p align="center">
   <em>Borrower management interface showing borrower records, collection officer assignments, search, and status information.</em>
 </p>
+
 ---
 
 ### Agent, Position and Access Management
