@@ -214,6 +214,12 @@ The system supports:
 - Bulk approval operations
 - Approver-based authorization
 
+<p align="center">
+<img width="300" 
+      alt="Loan Approval" 
+      src="https://github.com/user-attachments/assets/4fc3a832-7204-4201-b435-c6773b495d74" />
+</p>
+
 ---
 
 ### Repayment Scheduling
