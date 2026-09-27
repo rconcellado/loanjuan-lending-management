@@ -160,6 +160,9 @@ The system supports:
 - Administrative privileges
 - Role-based functionality
 
+<img width="720" height="1604" alt="Users" src="https://github.com/user-attachments/assets/7b90ac00-d593-4dc2-8a3c-6f25acb0f79a" />
+
+
 ---
 
 ### Loan Application Management
