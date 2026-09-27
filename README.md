@@ -365,36 +365,15 @@ This allows application functionality and navigation options to be associated wi
 
 ---
 
-## Data Model
+## Entity Relationship Diagram
 
-The LoanJuan relational model centers around several primary business entities:
+The LoanJuan database is structured around the complete lending lifecycle, including companies, agents, borrowers, loan applications, repayment schedules, payments, charges, allocations, and payment applications.
 
-```text
-Company
-   │
-   └── Agent
-         │
-         ├── Position
-         │
-         ├── BorrowerAssignment
-         │        │
-         │        └── Borrower
-         │
-         └── LoanApplication
-                  │
-                  ├── LoanScheduler
-                  ├── LoanCharge
-                  │      └── Charge
-                  │
-                  ├── RepaymentScheduleItem
-                  │
-                  ├── LoanPayment
-                  │      │
-                  │      ├── PaymentAllocation
-                  │      └── PaymentApplication
-                  │
-                  └── Payment History
-```
+The ERD below illustrates the primary entities and relationships used by the lending platform.
+
+[LoanJuan Lending Entity Relationship Diagram (4).pdf](https://github.com/user-attachments/files/32692342/LoanJuan.Lending.Entity.Relationship.Diagram.4.pdf)
+
+
 
 The model minimizes unnecessary duplicated ownership information by deriving relationships through authoritative entities where appropriate.
 
