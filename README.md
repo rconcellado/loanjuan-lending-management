@@ -71,34 +71,50 @@ LoanJuan follows a multi-layer application architecture.
 
 ```text
 ┌───────────────────────────────┐
-│        Admin Web App          │
+│    Flutter Mobile App         │
+│                               │
+│ Borrower Management           │
+│ Loan Applications             │
+│ Loan Approval                 │
+│ Payment Collection            │
+│ Reporting                     │
+│ Local SQLite Storage          │
 └───────────────┬───────────────┘
                 │
-                │ HTTPS / REST
-                │
-┌───────────────▼───────────────┐
+                │ HTTPS / REST API
+                ▼
+┌───────────────────────────────┐
 │       ASP.NET Core API        │
 │                               │
-│ Authentication                │
-│ Business Services             │
+│ Authentication / JWT          │
 │ Authorization                 │
+│ Borrower Management           │
 │ Loan Processing               │
 │ Payment Processing            │
 │ Reporting                     │
 └───────────────┬───────────────┘
                 │
                 │ Entity Framework Core
-                │
-┌───────────────▼───────────────┐
+                ▼
+┌───────────────────────────────┐
 │          PostgreSQL           │
 │                               │
 │ Borrowers                     │
-│ Agents                        │
+│ Agents / Users                │
 │ Loan Applications             │
 │ Repayment Schedules           │
 │ Payments                      │
 │ Charges                       │
 │ Audit / Historical Data       │
+└───────────────────────────────┘
+
+┌───────────────────────────────┐
+│ Automated Background Process  │
+│                               │
+│ Scheduled Loan Processing     │
+│ Repayment Processing          │
+│ Overdue / Penalty Processing  │
+│ Scheduler Logging             │
 └───────────────────────────────┘
 
 
