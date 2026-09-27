@@ -237,8 +237,13 @@ Schedule information includes:
 - Amount paid
 - Payment status
 
-The system uses scheduled processing to maintain loan repayment information and support ongoing loan monitoring.
-
+<p align="center">
+<img width="300" 
+      alt="Repayment Schedule" src="https://github.com/user-attachments/assets/91b504bf-df37-46ce-8c25-c019dda6601a" />
+</p>
+<p align="center">
+    The system uses scheduled processing to maintain loan repayment information and support ongoing loan monitoring.
+</p>
 ---
 
 ### Payment Processing
