@@ -255,20 +255,28 @@ The loan statement provides a chronological view of the loan release and subsequ
 
 ---
 
-### Payment Processing
+### Payment Recording
 
-LoanJuan records borrower payments and applies them against loan obligations.
+The LoanJuan Collector mobile application allows collection personnel to record payments received directly from borrowers.
 
-The payment architecture includes:
+Before a payment is submitted, the collector can review the borrower's outstanding balance, enter the amount collected, and confirm the transaction to help prevent accidental or incorrect payment entries.
 
-- Loan payments
-- Payment allocations
-- Payment applications
-- Repayment schedule updates
-- Payment tracking
-- Remaining balances
+The payment recording workflow includes:
 
-Payments are associated with loan applications, allowing payment ownership and borrower information to be derived from the loan relationship.
+- Borrower identification
+- Outstanding balance display
+- Payment amount entry
+- Payment confirmation
+- Verification of the borrower and collected amount before submission
+- Submission to the LoanJuan backend for payment processing
+
+<p align="center">
+<img width="300" 
+      alt="Record Payment" src="https://github.com/user-attachments/assets/238d2f73-b416-4736-8d5e-1e743cbaeab9" />
+</p>
+<p align="center">
+  <em>Collector application confirming a borrower payment before the transaction is submitted for processing.</em>
+</p>
 
 ---
 
