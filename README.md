@@ -1,6 +1,6 @@
 # LoanJuan Lending Management System
 
-LoanJuan is a full-stack lending management platform designed to support the complete lifecycle of lending operations — from borrower management and loan application processing to repayment scheduling, payment collection, monitoring, and reporting.
+LoanJuan is a full-stack lending management platform designed to support the complete lifecycle of lending operations, from borrower management and loan application processing to repayment scheduling, payment collection, monitoring, and reporting.
 
 The system combines a Flutter mobile application, a REST API, a centralized database, and automated background processing to provide a complete solution for managing lending activities.
 
@@ -16,7 +16,6 @@ The application supports role-based access and assignment workflows while mainta
 
 The platform consists of several integrated components:
 
-- Administrative web application
 - Flutter mobile application
 - ASP.NET Core REST API
 - PostgreSQL database
@@ -106,8 +105,11 @@ LoanJuan follows a multi-layer application architecture.
 │ Payments                      │
 │ Charges                       │
 │ Audit / Historical Data       │
-└───────────────────────────────┘
-
+└───────────────┬───────────────┘
+                │
+                │ Read / Update
+                │
+                ▼
 ┌───────────────────────────────┐
 │ Automated Background Process  │
 │                               │
@@ -115,19 +117,12 @@ LoanJuan follows a multi-layer application architecture.
 │ Repayment Processing          │
 │ Overdue / Penalty Processing  │
 │ Scheduler Logging             │
-└───────────────────────────────┘
-
-
-┌───────────────────────────────┐
-│     Flutter Mobile App        │
-│                               │
-│ Field Operations              │
-│ Borrower Management           │
-│ Collection Activities         │
-│ Local SQLite Storage          │
 └───────────────┬───────────────┘
                 │
-                └──────── REST API ───────► ASP.NET Core API
+                │ Update / Log Results
+                │
+                └──────────────► PostgreSQL
+
 ```
 
 ---
