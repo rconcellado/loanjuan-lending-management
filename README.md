@@ -144,7 +144,7 @@ Borrower-to-agent relationships are managed through an assignment model, allowin
 
 ---
 
-### Agent and Position Management
+### Agent, Position and Access Management
 
 Agents represent users involved in lending and collection operations.
 
@@ -160,9 +160,11 @@ The system supports:
 - Administrative privileges
 - Role-based functionality
 
-<img width="300"
-     alt="LoanJuan Agent and Position Management"
-     src="https://github.com/user-attachments/assets/7b90ac00-d593-4dc2-8a3c-6f25acb0f79a" />
+<p align="center">
+  <img width="300"
+       alt="LoanJuan Agent, Position and Access Management"
+       src="https://github.com/user-attachments/assets/7b90ac00-d593-4dc2-8a3c-6f25acb0f79a" />
+</p>
 
 
 ---
