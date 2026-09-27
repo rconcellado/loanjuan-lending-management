@@ -24,7 +24,7 @@ The platform consists of several integrated components:
 - Role and menu-based access control
 - Reporting and monitoring features
 
-Process Flow Description
+## Process Flow Description
 The LoanJuan Lending Management System manages the complete loan lifecycle from borrower registration to loan completion. The process covers four main stages: Loan Creation, Loan Application Review, Loan Processing, and Automated Scheduling.
 A borrower is registered or selected, and a loan application is created. The application is then reviewed and either approved or rejected. Approved loans proceed to loan release and repayment schedule generation. The system then manages scheduled payment collection and updates the outstanding loan balance. This cycle continues until the loan is fully paid, at which point the loan is marked as completed.
 
