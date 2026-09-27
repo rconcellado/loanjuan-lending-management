@@ -186,7 +186,13 @@ Loan information includes:
 - Repayment schedule
 - Payment history
 
-Loan applications provide the central relationship connecting borrowers, agents, repayment schedules, charges, and payments.
+<img width="300" 
+      alt="Loan Applications" 
+      src="https://github.com/user-attachments/assets/bd387b4f-fd25-4d77-8485-2a46146687a2" />
+<p align="center">
+  <em>Loan applications provide the central relationship connecting borrowers, agents, repayment schedules, charges, and payments.</em>
+</p>
+
 
 ---
 
