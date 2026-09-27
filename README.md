@@ -42,7 +42,6 @@ A borrower is registered or selected, and a loan application is created. The app
 - Entity Framework Core
 - RESTful Web API
 - JWT Authentication
-- PostgreSQL
 
 ### Database
 
