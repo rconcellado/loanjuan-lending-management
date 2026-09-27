@@ -227,23 +227,32 @@ The workflow supports:
 
 ### Repayment Scheduling
 
-Repayment schedules are generated for approved loans and track the financial obligations associated with each repayment period.
+LoanJuan provides detailed repayment tracking for approved loans, giving collection personnel a clear view of the borrower's loan terms, payment progress, and outstanding balance.
 
-Schedule information includes:
+The repayment details include:
 
-- Due date
-- Principal due
-- Interest amount
-- Amount paid
-- Payment status
+- Principal amount
+- Interest rate
+- Loan term and payment frequency
+- Loan start and end dates
+- Total collectible amount
+- Payments collected
+- Unpaid balance
+- Advanced payments
+- Scheduled repayment dates
+- Amount due and amount paid
+- Running loan balance
+
+The loan statement provides a chronological view of the loan release and subsequent repayments, allowing users to track how each payment affects the remaining balance.
 
 <p align="center">
 <img width="300" 
       alt="Repayment Schedule" src="https://github.com/user-attachments/assets/91b504bf-df37-46ce-8c25-c019dda6601a" />
 </p>
 <p align="center">
-    The system uses scheduled processing to maintain loan repayment information and support ongoing loan monitoring.
+  <em>Loan repayment details showing loan terms, collection summary, scheduled repayments, payments received, and running balance.</em>
 </p>
+
 ---
 
 ### Payment Processing
