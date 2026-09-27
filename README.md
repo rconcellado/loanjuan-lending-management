@@ -45,14 +45,6 @@ A borrower is registered or selected, and a loan application is created. The app
 - JWT Authentication
 - PostgreSQL
 
-### Mobile Application
-
-- Flutter
-- Dart
-- REST API integration
-- Local SQLite storage
-- Offline/online data synchronization
-
 ### Web Application
 
 - ASP.NET Core
