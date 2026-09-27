@@ -333,22 +333,11 @@ Reports support filtering and structured presentation of lending data, with sele
 
 ## Mobile Application
 
-LoanJuan includes a Flutter mobile application designed for field personnel.
+LoanJuan includes a Flutter mobile application used by field personnel for borrower, loan, and collection activities.
 
-The mobile application communicates with the central LoanJuan API while also supporting local data storage using SQLite.
+The application integrates with the central LoanJuan API and uses SQLite for local application data.
 
-Key mobile capabilities include:
-
-- Secure authentication
-- Dashboard
-- Borrower access
-- Loan information
-- Collection-related activities
-- Role-aware functionality
-- Offline/local data support
-- API synchronization
-
-Environment indicators distinguish application builds connected to different deployment environments.
+Separate UAT and production configurations allow mobile builds to connect to the appropriate deployment environment.
 
 ---
 
