@@ -2,7 +2,7 @@
 
 LoanJuan is a full-stack lending management platform designed to support the complete lifecycle of lending operations — from borrower management and loan application processing to repayment scheduling, payment collection, monitoring, and reporting.
 
-The system combines a web-based administrative platform, a mobile application for field operations, a REST API, and automated background processing to provide a centralized solution for managing lending activities.
+The system combines a Flutter mobile application, a REST API, a centralized database, and automated background processing to provide a complete solution for managing lending activities.
 
 > **Portfolio Project:** This repository contains project documentation, screenshots, architecture diagrams, and selected technical information. The production source code and sensitive configuration are not publicly available.
 
