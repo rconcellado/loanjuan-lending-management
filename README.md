@@ -282,19 +282,27 @@ The payment recording workflow includes:
 
 ### Payment Correction and Audit History
 
-LoanJuan includes a controlled payment-voiding workflow for correcting payment transactions while preserving an audit trail.
+LoanJuan provides a controlled payment correction workflow for voiding previously recorded payments.
 
-When a payment is voided:
+Payment voiding is protected by OTP verification to help prevent unauthorized or accidental corrections. Before the void is completed, a one-time code is sent to the configured authorization recipient and must be entered by the user performing the correction.
 
-1. The original payment is identified.
-2. Relevant loan information is retrieved.
-3. Authorization and validation are performed.
-4. A historical copy of the payment is stored.
-5. Related payment calculations are reversed.
-6. The original payment record is removed.
-7. Loan schedules and balances are recalculated.
+The payment correction workflow includes:
 
-Voided payments are preserved separately as historical audit records, allowing payment corrections without losing transaction history.
+- Selection of the payment to be voided
+- OTP-based confirmation
+- Payment void authorization and validation
+- Reversal of affected payment calculations
+- Repayment schedule recalculation
+- Outstanding balance recalculation
+- Audit information for payment corrections
+
+<p align="center">
+<img width="300" 
+      alt="Payment Correction and Audit History" src="https://github.com/user-attachments/assets/806e9673-daae-488d-9dc5-2ff6e1247081" />
+</p>
+<p align="center">
+  <em>OTP-protected payment correction workflow requiring verification before a recorded payment can be voided.</em>
+</p>
 
 ---
 
