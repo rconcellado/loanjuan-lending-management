@@ -306,16 +306,6 @@ The payment correction workflow includes:
 
 ---
 
-### Loan Charges
-
-Charges can be configured and associated with loan applications.
-
-The charge architecture separates reusable charge definitions from charges actually applied to individual loans.
-
-This provides flexibility for managing different lending fees while retaining the exact charges associated with each loan.
-
----
-
 ### Collections and Loan Monitoring
 
 LoanJuan provides operational tools for monitoring repayment activity and identifying loans requiring attention.
