@@ -200,24 +200,27 @@ Loan information includes:
 
 ### Loan Approval Workflow
 
-LoanJuan supports controlled loan review and approval workflows.
+LoanJuan provides a controlled loan approval workflow for authorized personnel to review and approve loan applications.
 
-Approval operations are restricted to authorized users, allowing the application to separate loan processing responsibilities from approval authority.
+Before approval is completed, the system presents a confirmation step showing the borrower and loan amount and reminds the approver to verify important loan terms before proceeding.
 
-The system supports:
+The workflow supports:
 
-- Loan review
-- Loan approval
-- Loan rejection
-- Review comments
-- Rejection reasons
-- Bulk approval operations
-- Approver-based authorization
+- Review of loan applications
+- Loan status tracking
+- Authorized loan approval
+- Verification of loan amount and borrower
+- Confirmation of loan terms before approval
+- Explicit approval confirmation
+- Protection against accidental approval
 
 <p align="center">
 <img width="300" 
       alt="Loan Approval" 
       src="https://github.com/user-attachments/assets/4fc3a832-7204-4201-b435-c6773b495d74" />
+</p>
+<p align="center">
+  <em>Loan approval confirmation requiring verification of key loan details before final approval.</em>
 </p>
 
 ---
