@@ -23,6 +23,36 @@ The platform consists of several integrated components:
 - Role and menu-based access control
 - Reporting and monitoring features
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Process Flow Description](#process-flow-description)
+- [Technology Stack](#technology-stack)
+  - [Backend](#backend)
+  - [Database](#database)
+  - [DevOps](#devops)
+- [System Architecture](#system-architecture)
+- [Core Features](#core-features)
+  - [Borrower Management](#borrower-management)
+  - [Agent, Position and Access Management](#agent-position-and-access-management)
+  - [Loan Application Management](#loan-application-management)
+  - [Loan Approval Workflow](#loan-approval-workflow)
+  - [Repayment Scheduling](#repayment-scheduling)
+  - [Payment Recording](#payment-recording)
+  - [Payment Correction and Audit History](#payment-correction-and-audit-history)
+  - [Reporting](#reporting)
+- [Mobile Application](#mobile-application)
+- [Authentication and Authorization](#authentication-and-authorization)
+- [Access Control](#access-control)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+  - [Transactional Consistency](#transactional-consistency)
+  - [Auditability](#auditability)
+- [Testing](#testing)
+- [Deployment Environments](#deployment-environments)
+- [CI/CD](#cicd)
+- [Engineering Practices](#engineering-practices)
+- [Author](#author)
+
 ## Process Flow Description
 The LoanJuan Lending Management System manages the complete loan lifecycle from borrower registration to loan completion. The process covers four main stages: Loan Creation, Loan Application Review, Loan Processing, and Automated Scheduling.
 A borrower is registered or selected, and a loan application is created. The application is then reviewed and either approved or rejected. Approved loans proceed to loan release and repayment schedule generation. The system then manages scheduled payment collection and updates the outstanding loan balance. This cycle continues until the loan is fully paid, at which point the loan is marked as completed.
