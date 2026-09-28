@@ -514,6 +514,14 @@ The pipeline supports activities such as:
 
 This reduces reliance on manual deployment steps and improves repeatability between environments.
 
+<p align="center">
+    <img height="533" alt="LoanJuanLending" src="https://github.com/user-attachments/assets/874c4cc5-8072-4494-b244-fbdf980b9b83" />
+</p>
+
+The LoanJuan API uses an automated Azure DevOps pipeline to build, test,
+package, and deploy application changes from the development repository
+to the UAT environment.
+
 ---
 
 ## Engineering Practices
