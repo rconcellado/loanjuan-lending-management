@@ -425,6 +425,23 @@ Gemini receives only the limited information necessary for its specific task. Fi
 
 The AI Lending Business Analyst complements traditional reports by providing a conversational interface for accessing lending and collection information while preserving backend control over financial calculations, security, and data access.
 
+<p align="center">
+<img width="300" 
+      alt="AI Lending Business Portfolio" src="https://github.com/user-attachments/assets/c1892abd-fe81-4f85-84da-576e54a54006" />
+</p>
+<p align="center">
+  <em> .</em>
+</p>
+
+<p align="center">
+<img width="300" 
+      alt="AI Lending Business Portfolio" src="https://github.com/user-attachments/assets/b724c2be-94a5-405e-9dea-0d2e87134491" />
+</p>
+<p align="center">
+  <em> .</em>
+</p>
+
+
 ---
 
 ## Mobile Application
