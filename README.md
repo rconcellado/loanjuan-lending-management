@@ -365,6 +365,68 @@ Reports support filtering and structured presentation of lending data, with sele
 
 ---
 
+## AI-Powered Lending Business Analyst
+
+LoanJuan integrates **Google Gemini AI** to provide natural-language lending analytics through the Flutter mobile application.
+
+The AI Lending Business Analyst allows authorized users to ask questions about lending operations, collections, outstanding balances, overdue loans, and agent performance without manually navigating multiple reports.
+
+### Key Capabilities
+
+- **Predefined Analytics Questions** — Access commonly requested lending and collection metrics.
+- **Natural-Language Queries** — Ask lending-related questions using everyday language.
+- **Controlled Dynamic Analytics** — Supports additional questions using predefined database entities, fields, aggregations, and validated query structures.
+- **Collection Analysis** — Retrieve daily, weekly, monthly, and custom-period collection figures.
+- **Comparative Analytics** — Compare current and previous month collections, including calculated differences and percentage changes.
+- **Loan Portfolio Analysis** — Review outstanding balances, released principal, and overdue loan summaries.
+- **Agent Performance Analysis** — Examine collection performance, overdue loan counts, and active portfolio sizes.
+- **AI-Generated Explanations** — Present verified financial results in understandable business language.
+
+### AI Architecture
+
+The feature uses a controlled architecture that separates financial calculations, data retrieval, and natural-language generation.
+
+```mermaid
+flowchart TD
+    A["Flutter AI Lending Analyst"] --> B["ASP.NET Core API"]
+    B --> C["Authentication and Authorization"]
+    C --> D["Portfolio Analyst Service"]
+    D --> E["Validated Intent Resolution"]
+    E --> F["Read-Only Analytics Engine"]
+    F --> G[("PostgreSQL")]
+    F --> H["Verified Financial Results"]
+    H --> I["Google Gemini Narration"]
+    I --> J["Structured Analytics Response"]
+    J --> A
+```
+
+The backend processes lending operations using deterministic C# and SQL calculations. Google Gemini assists with bounded intent classification and produces plain-language explanations based on already-computed financial values.
+
+The system does not allow Gemini to execute arbitrary database commands, modify financial transactions, or calculate authoritative financial figures.
+
+### AI Security and Data Protection
+
+The AI integration incorporates multiple safeguards:
+
+- Dedicated PostgreSQL read-only database access for AI analytics
+- Company-level data isolation
+- Agent-scoped access for borrower-identifying results
+- JWT authentication and role-based authorization
+- Controlled analytics operations and predefined query vocabulary
+- Validation of AI-resolved query intentions
+- Borrower-name detection for protected free-text processing paths
+- Daily per-user request quotas
+- Explicit error handling for unavailable database operations
+- Separation of sensitive row-level information from external AI narration
+
+Gemini receives only the limited information necessary for its specific task. Financial calculations are performed by the application, and detailed result lists are handled by the backend and Flutter interface.
+
+### Business Value
+
+The AI Lending Business Analyst complements traditional reports by providing a conversational interface for accessing lending and collection information while preserving backend control over financial calculations, security, and data access.
+
+---
+
 ## Mobile Application
 
 LoanJuan includes a Flutter mobile application used by field personnel for borrower, loan, and collection activities.
