@@ -430,7 +430,7 @@ The AI Lending Business Analyst complements traditional reports by providing a c
       alt="AI Lending Business Portfolio" src="https://github.com/user-attachments/assets/c1892abd-fe81-4f85-84da-576e54a54006" />
 </p>
 <p align="center">
-  <em> .</em>
+  <em>Screenshot 1: AI Lending Business Analyst interface allowing authorized users to ask lending-related questions in natural language.</em>
 </p>
 
 <p align="center">
@@ -438,7 +438,7 @@ The AI Lending Business Analyst complements traditional reports by providing a c
       alt="AI Lending Business Portfolio" src="https://github.com/user-attachments/assets/b724c2be-94a5-405e-9dea-0d2e87134491" />
 </p>
 <p align="center">
-  <em> .</em>
+  <em>Screenshot 2: AI-generated lending analytics response presenting verified financial results with a plain-language explanation.</em>
 </p>
 
 
