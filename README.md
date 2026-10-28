@@ -627,11 +627,6 @@ LoanJuan was developed with emphasis on:
 
 ---
 
-## Author
-
-**Rey Concellado**  
-Senior Programmer Analyst / Software Developer
-
 Primary areas demonstrated by this project:
 
 - C# / ASP.NET Core
